@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-24T11:56:30 IST" name="Default suite" finished-at="2026-10-24T11:57:22 IST" duration-ms="51971">
+    <groups>
+    </groups>
+    <test started-at="2026-10-24T11:56:30 IST" name="Default test" finished-at="2026-10-24T11:57:22 IST" duration-ms="51971">
+      <class name="Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:56:30 IST" name="beforesuite" finished-at="2026-10-24T11:56:30 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:56:30 IST" name="beforetest" finished-at="2026-10-24T11:56:31 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:56:31 IST" name="beforeclass" finished-at="2026-10-24T11:56:36 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:56:36 IST" name="beforemethod" finished-at="2026-10-24T11:56:37 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="placeoder()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:56:37 IST" name="placeoder" finished-at="2026-10-24T11:56:58 IST" duration-ms="20334" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=155.0.8059.85)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d339a672b0f374675bfb49e800e60468, clickElement {id=f.268B19359D4C8A764F31932F69E04BA3.d.488485CC0E00E2F0B2794E8FF737DB0B.e.1266}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55421}, goog:processID: 1588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55421/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d339a672b0f374675bfb49e800e60468)] -> xpath: //input[@value='Continue']]
+Session ID: d339a672b0f374675bfb49e800e60468]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=155.0.8059.85)
+Build info: version: '4.51.0', revision: '35c5fab 35c5fab4a58fa5878edb255eb7747b04ca51a015'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d339a672b0f374675bfb49e800e60468, clickElement {id=f.268B19359D4C8A764F31932F69E04BA3.d.488485CC0E00E2F0B2794E8FF737DB0B.e.1266}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 155.0.8059.85, chrome: {chromedriverVersion: 155.0.8059.84 (5869fe313571..., userDataDir: C:\Users\acer\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55421}, goog:processID: 1588, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55421/devtoo..., se:cdpVersion: 155.0.8059.85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d339a672b0f374675bfb49e800e60468)] -> xpath: //input[@value='Continue']]
+Session ID: d339a672b0f374675bfb49e800e60468
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:689)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test.placeoder(Tc_003_Verify_place_Order_Test.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeoder -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:56:58 IST" name="aftermethod" finished-at="2026-10-24T11:57:22 IST" duration-ms="23922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:57:22 IST" name="afterclass" finished-at="2026-10-24T11:57:22 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:57:22 IST" name="aftertest" finished-at="2026-10-24T11:57:22 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test@489115ef]" started-at="2026-10-24T11:57:22 IST" name="aftersuite" finished-at="2026-10-24T11:57:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- Com.DemoWebShop_TestScripts.Tc_003_Verify_place_Order_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
