@@ -36,6 +36,7 @@ public class Tc_003_Verify_place_Order_Test extends BaseTest {
 
 		checkoutpage.getConfirmbutton().click();
 		
+		
 		Thread.sleep(2000);
 		webDriverUtility.webpageScreenshot(driver);
 
